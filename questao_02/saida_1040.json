@@ -1,0 +1,20 @@
+{
+	"title": "Floor Access Event",
+	"type": "object",
+	"properties": {
+		"person_id": {
+			"type": "string"
+		},
+		"datetime": {
+			"type": "string",
+			"format": "date-time"
+		},
+		"floor_level": {
+			"type": "integer"
+		},
+		"building": {
+			"type": "string"
+		}
+	},
+	"required": [ "73", "10/6/15 13:19", 5, "C"]
+}
